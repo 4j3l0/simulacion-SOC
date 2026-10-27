@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="eS">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOC y Motor de Antivirus</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <h1>Antivirus</h1>
-    <p>ingresa el codigo, comando o link para analizar si tiene malware</p>
-    <form action="index.html">
-        <input type="text">
-        <input type="submit" value=""> 
-    </form>
+    <div class="container">
+        <h1>Antivirus</h1>
+        <p>ingresa el codigo, comando o link para analizar si tiene malware</p>
+        <form action="index.html">
+            <textarea name="codigo" placeholder="Ingresa el código, comando o link..."></textarea>
+            <input class="button" type="submit" value="Analizar"> 
+        </form>
+    </div>
 </body>
 </html>
